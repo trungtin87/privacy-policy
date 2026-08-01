@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - f5tc5t Applications</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --primary-hover: #1d4ed8;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border-color: #e2e8f0;
+            --accent-bg: #eff6ff;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border-color);
+        }
+
+        .header {
+            text-align: center;
+            padding-bottom: 24px;
+            border-bottom: 2px solid var(--border-color);
+            margin-bottom: 24px;
+        }
+
+        .header h1 { font-size: 28px; color: #0f172a; margin-bottom: 8px; }
+        .header p { color: var(--text-muted); font-size: 14px; }
+
+        .lang-switch {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+
+        .lang-btn {
+            background-color: #f1f5f9;
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 14px;
+        }
+
+        .lang-btn.active {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        .content-section { display: none; }
+        .content-section.active { display: block; }
+
+        h2 {
+            font-size: 20px;
+            color: #0f172a;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            border-left: 4px solid var(--primary-color);
+            padding-left: 10px;
+        }
+
+        p, ul { margin-bottom: 16px; color: #334155; font-size: 15px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 6px; }
+
+        .callout {
+            background-color: var(--accent-bg);
+            border: 1px solid #bfdbfe;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+
+        .contact-box {
+            background-color: #f8fafc;
+            border: 1px dashed var(--border-color);
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        a { color: var(--primary-color); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1 id="doc-title">Privacy Policy</h1>
+        <p id="doc-updated">Last updated: August 1, 2026</p>
+    </div>
+
+    <!-- Nút chuyển đổi ngôn ngữ -->
+    <div class="lang-switch">
+        <button class="lang-btn active" id="btn-en" onclick="switchLang('en')">English</button>
+        <button class="lang-btn" id="btn-vi" onclick="switchLang('vi')">Tiếng Việt</button>
+    </div>
+
+    <!-- NỘI DUNG TIẾNG ANH (MẶC ĐỊNH GUYỆT CHO GOOGLE) -->
+    <div id="content-en" class="content-section active">
+        <div class="callout">
+            This Privacy Policy applies to all mobile applications developed, published, and maintained under the developer name <strong>f5tc5t</strong> on the Google Play Store.
+        </div>
+
+        <h2>1. Introduction</h2>
+        <p>Welcome to the Privacy Policy page of <strong>f5tc5t</strong>. Your privacy is paramount to us. This policy clearly explains how we handle, protect, or limit the collection of your data when you use our Android applications.</p>
+
+        <h2>2. Data Collection and Usage</h2>
+        <p>Our applications are built with a strong commitment to user privacy and data minimization:</p>
+        <ul>
+            <li><strong>Personal Information:</strong> We do not collect personally identifiable information (such as your full name, physical address, or phone number) unless strictly necessary for specific opt-in services.</li>
+            <li><strong>Device & Diagnostics Information:</strong> Non-personal technical information (such as device model, OS version, performance metrics, and anonymous crash logs) may be collected to diagnose issues and ensure application stability.</li>
+            <li><strong>Runtime Permissions:</strong> Standard Android permissions (e.g., Internet access, local Storage) are requested solely to execute core features requested by the user.</li>
+        </ul>
+
+        <h2>3. Third-Party Services</h2>
+        <p>Our applications may rely on trusted third-party infrastructure and services that collect non-identifiable usage statistics to optimize application performance:</p>
+        <ul>
+            <li><strong>Google Play Services:</strong> Required for foundational app operations and platform framework support.</li>
+            <li><strong>Google Analytics / Firebase:</strong> Used for aggregate anonymous analytics to understand feature usage and improve user experience.</li>
+        </ul>
+
+        <h2>4. Data Retention & Security</h2>
+        <p>We prioritize robust operational standards to safeguard any minimal data processed by our applications. We do not sell, trade, or transfer your personal information to outside third parties.</p>
+
+        <h2>5. Children's Privacy</h2>
+        <p>Our applications do not knowingly collect personal information from children under the age of 13. If you believe personal data from a minor has been collected, please contact us immediately so we can promptly remove it.</p>
+
+        <h2>6. Data Deletion Requests</h2>
+        <p>If any of our applications store user-created accounts or personal data, you have the right to request full deletion of your information. Please send your deletion request to our support email listed below.</p>
+
+        <h2>7. Contact Information</h2>
+        <p>If you have any questions, feedback, or concerns regarding this Privacy Policy, please feel free to reach out to us:</p>
+        <div class="contact-box">
+            <p><strong>Developer:</strong> f5tc5t</p>
+            <p><strong>Email:</strong> <a href="mailto:trungtincatp@gmail.com">trungtincatp@gmail.com</a></p>
+            <p><strong>Website:</strong> <a href="https://trungtin87.github.io" target="_blank" rel="noopener">https://trungtin87.github.io</a></p>
+        </div>
+    </div>
+
+    <!-- NỘI DUNG TIẾNG VIỆT -->
+    <div id="content-vi" class="content-section">
+        <div class="callout">
+            Chính sách bảo mật này áp dụng cho tất cả các ứng dụng di động được phát triển và phát hành dưới tên nhà phát triển <strong>f5tc5t</strong> trên Google Play Store.
+        </div>
+
+        <h2>1. Giới thiệu</h2>
+        <p>Chào mừng bạn đến với trang Chính sách bảo mật của <strong>f5tc5t</strong>. Quyền riêng tư của bạn là ưu tiên hàng đầu của chúng tôi. Tài liệu này giải thích rõ ràng cách chúng tôi xử lý, bảo vệ cũng như giới hạn thu thập dữ liệu khi bạn trải nghiệm các ứng dụng Android của chúng tôi.</p>
+
+        <h2>2. Thu thập và sử dụng dữ liệu</h2>
+        <p>Các ứng dụng được thiết kế đề cao tiêu chí bảo mật và tối thiểu hóa dữ liệu thu thập:</p>
+        <ul>
+            <li><strong>Thông tin cá nhân:</strong> Chúng tôi không thu thập thông tin định danh cá nhân (như họ tên, địa chỉ nhà, số điện thoại) trừ khi thực sự cần thiết cho các tính năng người dùng chủ động yêu cầu.</li>
+            <li><strong>Dữ liệu thiết bị & Chẩn đoán:</strong> Thông tin kỹ thuật phi cá nhân (dòng máy, phiên bản hệ điều hành, nhật ký lỗi ẩn danh) có thể được ghi nhận để khắc phục sự cố và nâng cao độ ổn định.</li>
+            <li><strong>Quyền truy cập (Permissions):</strong> Các quyền Android tiêu chuẩn (như kết nối Internet, Bộ nhớ) chỉ được yêu cầu nhằm phục vụ đúng chức năng người dùng trải nghiệm.</li>
+        </ul>
+
+        <h2>3. Dịch vụ từ bên thứ ba</h2>
+        <p>Ứng dụng có thể sử dụng các dịch vụ hạ tầng uy tín từ bên thứ ba nhằm đảm bảo vận hành mượt mà:</p>
+        <ul>
+            <li><strong>Google Play Services:</strong> Hỗ trợ các chức năng nền tảng cơ bản của hệ điều hành Android.</li>
+            <li><strong>Google Analytics / Firebase:</strong> Phân tích hành vi ẩn danh để tối ưu hóa tính năng và trải nghiệm người dùng.</li>
+        </ul>
+
+        <h2>4. Bảo mật và lưu trữ dữ liệu</h2>
+        <p>Chúng tôi cam kết áp dụng các biện pháp an toàn phù hợp để bảo vệ dữ liệu. Chúng tôi tuyệt đối không bán, trao đổi hoặc chia sẻ dữ liệu cá nhân của bạn cho bên thứ ba.</p>
+
+        <h2>5. Quyền riêng tư của trẻ em</h2>
+        <p>Các ứng dụng không cố ý thu thập thông tin cá nhân từ trẻ em dưới 13 tuổi. Nếu phát hiện thông tin của trẻ em được gửi về hệ thống, vui lòng liên hệ ngay để chúng tôi tiến hành xóa kịp thời.</p>
+
+        <h2>6. Yêu cầu xóa dữ liệu</h2>
+        <p>Trong trường hợp ứng dụng có lưu trữ tài khoản hoặc dữ liệu người dùng, bạn hoàn toàn có quyền yêu cầu xóa toàn bộ dữ liệu cá nhân của mình bằng cách gửi email trực tiếp về hộp thư hỗ trợ bên dưới.</p>
+
+        <h2>7. Thông tin liên hệ</h2>
+        <p>Nếu bạn có bất kỳ thắc mắc, đóng góp hoặc yêu cầu hỗ trợ nào liên quan đến Chính sách bảo mật, xin vui lòng liên hệ với chúng tôi qua:</p>
+
+        <div class="contact-box">
+            <p><strong>Nhà phát triển:</strong> f5tc5t</p>
+            <p><strong>Email:</strong> <a href="mailto:trungtincatp@gmail.com">trungtincatp@gmail.com</a></p>
+            <p><strong>Trang web:</strong> <a href="https://trungtin87.github.io" target="_blank" rel="noopener">https://trungtin87.github.io</a></p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 f5tc5t. All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+    function switchLang(lang) {
+        document.getElementById('content-en').classList.remove('active');
+        document.getElementById('content-vi').classList.remove('active');
+        document.getElementById('btn-en').classList.remove('active');
+        document.getElementById('btn-vi').classList.remove('active');
+
+        if (lang === 'en') {
+            document.getElementById('content-en').classList.add('active');
+            document.getElementById('btn-en').classList.add('active');
+            document.getElementById('doc-title').innerText = 'Privacy Policy';
+            document.documentElement.lang = 'en';
+        } else {
+            document.getElementById('content-vi').classList.add('active');
+            document.getElementById('btn-vi').classList.add('active');
+            document.getElementById('doc-title').innerText = 'Chính Sách Bảo Mật';
+            document.documentElement.lang = 'vi';
+        }
+    }
+</script>
+
+</body>
+</html>
